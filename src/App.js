@@ -1,16 +1,19 @@
 import React from "react"
 
+//class making thigs
+
 class App extends React.Component {
+
     constructor() {
         super()
         this.state = {
-            isLoggedIn: false
+            isLoggedIn: true
         }
     }
     
     render() {
         let wordDisplay
-        if (this.state.isLoggedIn) {
+        if (this.state.isLoggedIn) {  // it's true then
             wordDisplay = "in"
         } else {
             wordDisplay = "out"
