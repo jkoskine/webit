@@ -10,6 +10,7 @@ class App extends React.Component {
             isLoggedIn: true
         }
     }
+
     
     render() {
         let wordDisplay
