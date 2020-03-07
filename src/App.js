@@ -1,13 +1,13 @@
 import React from "react"
 
-//class making thigs
+//class making things
 
 class App extends React.Component {
 
     constructor() {
         super()
         this.state = {
-            isLoggedIn: false
+            isLoggedIn: true
         }
     }
 
